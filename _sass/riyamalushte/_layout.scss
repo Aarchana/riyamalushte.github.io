@@ -1,0 +1,269 @@
+/**
+ * Site header
+ */
+.site-header {
+  /*border-top: 5px solid $grey-color-dark;*/
+  /*border-bottom: 1px solid $grey-color-light;*/
+  min-height: $spacing-unit * 4.90;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-logo {
+    margin-top: 5px;
+    margin-left: 1%;
+	height: 36px;
+	width: auto; 
+	float: left;
+	fill: $brand-color;
+}
+
+.site-logo > svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  path {
+    fill: $brand-color;
+  }
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-title-white {
+  color: #ffffff;
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: #ffffff;
+  }
+}
+
+.site-nav {
+	float: right;
+	margin-right: $spacing-unit;
+	/*line-height: $base-line-height* $base-font-size* 2.25;*/
+	z-index: 3;
+	position: absolute;
+	top: 9px;
+	right: $spacing-unit/2;
+	background-color: $background-color;
+	border: 1px solid$grey-color-light;
+	border-radius: 5px;
+	text-align: right;
+	
+	.nav-trigger {
+		display: none;
+	}
+
+	label[for="nav-trigger"] {
+		display: block;
+		float: right;
+		width: 36px;
+		height: 36px;
+		z-index: 2;
+		cursor: pointer;
+	}
+
+	.menu-icon {
+		display: block;
+		float: right;
+		width: 36px;
+		height: 26px;
+		line-height: 0;
+		padding-top: 10px;
+		text-align: center;
+		> svg path {
+				fill: $grey-color-dark;
+			}
+	}
+	
+	input ~ .trigger {
+		clear: both;
+		display: none;
+	}
+
+	input:checked ~ .trigger {
+		display: block;
+		padding-bottom: 5px;
+	}
+
+	.page-link {
+      	display: block;
+      	padding: 5px 5px;
+
+      	&:not(:last-child) {
+        	margin-right: 0;
+      	}
+      	margin-left: 20px;
+    }
+}
+
+body, html {
+    height: 100%;
+}
+
+/* Big cover image on the home page */
+.main-cover {
+    color: #fff;
+    padding: 30px 0;
+   /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.main-cover-vertical {
+   position:absolute;
+   bottom: 20%;
+   width:100%;
+   text-align: center;
+    
+   font-size: 3em;
+   font-weight: 800;
+   
+    @media only screen and (max-width: $on-palm) {
+		font-size: 2em;
+		 font-weight: 400;
+	}	
+}
+
+.main-cover-vertical .downarrow {
+    font-size: 5em;  
+    @media only screen and (max-width: $on-palm) {
+		font-size: 4em;
+	}	
+}
+
+.main-cover-vertical .downarrow a {
+  color: $grey-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($grey-color, 15%);
+  }
+
+  &:hover {
+    color: lighten($grey-color, 15%);
+    text-decoration: none; /*underline;*/
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  @include relative-font-size(1.25);
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+}
+
+.footer-col-wrapper {
+  @include relative-font-size(0.9375);
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}

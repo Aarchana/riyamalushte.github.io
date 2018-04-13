@@ -1,0 +1,170 @@
+/* ==========================================================================
+   Post Nav
+   ========================================================================== */
+
+.post-nav {
+	position: relative;
+
+	@media only screen and (max-width: $on-laptop) {
+		height: 7em;
+		margin: 2em 0;
+	}
+
+	&:after {
+		clear: both;
+		content: '';
+		display: table;
+	}
+
+	.post-nav-item {
+		position: fixed;
+		top: 50%;
+		display: block;
+		margin-top: -4em;
+		overflow: hidden;
+		border-radius: 10em;
+		transition: none;
+
+		@media only screen and (max-width: $on-laptop) {
+			position: absolute;
+			top: auto;
+			margin: auto;
+			max-width: 50%;
+		}
+
+		&:hover,
+		&:focus {
+			border-radius: 0;
+
+			.post-nav-teaser {
+
+				.post-nav-icon {
+					border: 2px solid $brand-color-light;
+					box-shadow: 0 0 0 25em $brand-color-light;
+
+					@media only screen and (max-width: $on-laptop) {
+						border: 2px solid $brand-color-light;
+						box-shadow: 0 0 0 2px $brand-color-light;
+					}
+				}
+
+				.post-nav-info {
+					display: block;
+
+					@media only screen and (max-width: $on-laptop) {
+						display: none;
+					}
+
+					.post-nav-title {
+						color: $grey-color-dark;
+					}
+
+					.post-nav-excerpt {
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		&.post-nav-next {
+			left: 0;
+			text-align: left;
+
+			.post-nav-icon {
+				float: left;
+
+				i {
+					left: -0.05em;
+				}
+			}
+
+			.post-nav-info {
+				padding-left: 6em;
+			}
+		}
+
+		&.post-nav-prev {
+			right: 0;
+			text-align: right;
+
+			.post-nav-icon {
+				float: right;
+
+				i {
+					right: -0.05em;
+				}
+			}
+
+			.post-nav-info {
+				padding-right: 6em;
+			}
+		}
+
+		.post-nav-teaser {
+			display: block;
+			padding: 1em;
+			transition: all ease-out 0.2s;
+			max-width: 25em;
+			overflow: visible;
+
+			&:after {
+				clear: both;
+				content: '';
+				display: table;
+			}
+
+			.post-nav-icon {
+				display: block;
+				width: 5em;
+				height: 5em;
+				line-height: 5em;
+				text-align: center;
+				box-sizing: border-box;
+				border-radius: 10em;
+				border: 2px solid $brand-color;
+				box-shadow: 0 0 0 0 transparent;
+				transition: all ease-out 0.1s;
+				background: transparent;
+
+				@media only screen and (max-width: $on-palm) {
+					width: 4em;
+					height: 4em;
+					line-height: 4em;
+				}			
+			}
+
+			.post-nav-info {
+				display: none;
+				width: 100%;
+				box-sizing: border-box;
+				transition: all ease-out 0.2s;
+
+				.post-nav-title {
+					display: block;
+					max-height: 1.25em;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					margin: 1.25em 0 0.25em;
+					font-size: 1em;
+					line-height: 1.25em;
+					font-weight: 700;
+					color: $grey-color-dark;
+				}
+
+				.post-nav-excerpt {
+					display: block;
+					max-height: 1.334em;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					margin: 0;
+					font-size: 0.75em;
+					line-height: 1.334em;
+					font-weight: 400;
+					color: $grey-color-dark;
+				}
+			}
+		}
+	}
+}

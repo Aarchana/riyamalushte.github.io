@@ -1,0 +1,16 @@
+<script type="text/javascript" src="{{ "/assets/js/readingTime.min.js"  | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.fitvids.js"  | relative_url }}"></script>
+<script>
+		$(function() {
+			$('article').readingTime({
+				readingTimeTarget: $(this).find('.eta'),
+				wordCountTarget: $(this).find('.words'),
+				error: function(message) {
+					console.log(message);
+					$(this).find('.eta').remove();
+				}
+			});	
+			
+			$(".wrapper").fitVids();
+		});
+</script>

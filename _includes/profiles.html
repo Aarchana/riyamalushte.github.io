@@ -1,0 +1,10 @@
+{% if site.author.github_username %}
+{% include icon-github.html username=site.author.github_username %} &nbsp;|&nbsp;
+{% endif %}
+
+{% if site.author.linkedin_profile %}
+{% include icon-linkedin.html username=site.author.linkedin_profile %}&nbsp;|&nbsp;
+{% endif %}
+
+<span>{{ site.title | escape }}</span>
+

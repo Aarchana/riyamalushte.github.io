@@ -1,0 +1,37 @@
+title: riyamalushte.github.io
+logo: /assets/img/riyamalushte.png
+svglogo: /assets/img/riyamalushte.svg
+svglogowhite: /assets/img/riyamalushte-white.svg
+# Comment out coverimage if you don't want a cover image
+# in the landing page
+coverimage: /assets/img/riya-malushte-on-the-wing.jpg
+coverpagecaption1:
+   तिच्यासारख्या मुक्त 
+coverpagecaption2:
+   on the wing
+
+description: > # this means to ignore newlines until next property
+  Riya Malushte is a software engineer with specialization in manual testing and api testing. She is an yoga expert and believes that travelling liberates mind, body and soul. 
+
+author: 
+  name: Riya Malushte
+  github_username:  riyamalushte
+  linkedin_profile: riyamalushte
+  
+
+# riyamalushte date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+riyamalushte:
+  date_format: "%-d %b, %Y"
+
+# Menu items to include in menu navigation
+menuitems:
+  - title: Testing
+    url: /testing
+
+# Build settings
+markdown: kramdown
+theme: riyamalushte
+exclude:
+  - Gemfile
+  - Gemfile.lock
