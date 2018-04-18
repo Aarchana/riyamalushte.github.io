@@ -139,7 +139,7 @@ body, html {
 
 .main-cover-vertical {
    position:absolute;
-   bottom: 20%;
+   bottom: 10%;
    width:100%;
    text-align: center;
     
@@ -148,7 +148,7 @@ body, html {
    
     @media only screen and (max-width: $on-palm) {
 		font-size: 2em;
-		 font-weight: 400;
+		 font-weight: 600;
 	}	
 }
 

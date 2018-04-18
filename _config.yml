@@ -4,11 +4,11 @@ svglogo: /assets/img/riyamalushte.svg
 svglogowhite: /assets/img/riyamalushte-white.svg
 # Comment out coverimage if you don't want a cover image
 # in the landing page
-coverimage: /assets/img/riya-malushte-on-the-wing.jpg
+coverimage: /assets/img/riyamalushte-cover.jpg
 coverpagecaption1:
-   तिच्यासारख्या मुक्त 
+   I measure life by
 coverpagecaption2:
-   on the wing
+   countries not years
 
 description: > # this means to ignore newlines until next property
   Riya Malushte is a software engineer with specialization in manual testing and api testing. She is an yoga expert and believes that travelling liberates. 
