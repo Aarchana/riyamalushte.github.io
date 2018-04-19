@@ -1,0 +1,51 @@
+---
+layout: postwrapper
+---
+
+<div id="postgrid" class="home">
+    {{ content }}
+    <div class="grid">
+		<div class="grid-sizer"></div>
+		{% for post in site.posts %}
+		<div class="grid-item">	
+		    <a href="{{ post.url | relative_url }}"> 	
+				{% if post.image %} 
+					<img src="{{ post.image | prepend: site.baseurl }}" /> 
+				{% endif %}
+				<h2>{{ post.title | escape }}</h2>
+				{% assign date_format = site.ons.date_format | default: "%-d %b, %Y" %}
+				<p>{{ post.date | date:date_format }}</p>
+				<p>{{ post.excerpt | truncate: 140 }}</p>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% include footer.html %}
+
+<script type="text/javascript" src="{{ "/assets/js/masonry.pkgd.min.js"  | relative_url }}"></script>
+	<script type="text/javascript" src="{{ "/assets/js/imagesloaded.pkgd.min.js"  | relative_url }}"></script>
+	<script type="text/javascript">
+		function applyMasonryGrid() {
+			// init Masonry
+			var $grid = $('.grid').masonry({
+			  itemSelector: '.grid-item',
+			  columnWidth: '.grid-sizer',
+			  gutter: 10,
+			  fitWidth: true
+			});
+			// layout Masonry after each image loads
+			$grid.imagesLoaded().progress( function() {
+			  $grid.masonry();
+			});  
+		}
+
+		$(function() {
+			applyMasonryGrid();
+		});
+		
+		$(window).resize(function() {
+			applyMasonryGrid();
+		});
+</script>

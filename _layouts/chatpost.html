@@ -6,14 +6,21 @@ layout: chatpostwrapper
 	<div class="post-header">
 		<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 		<p class="post-meta">
-			{% if page.author %}
+			{% if page.author1 %}
 				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 					<span itemprop="name">
-						<a href="/author/">{{ page.author }}</a>
+						<a href="https://www.linkedin.com/in/{{ page.linkedin1 }}" target="_blank">{{ page.author1 }}</a>
 					</span>
 				</span> 
 			{% endif %}
-			&nbsp; | &nbsp;
+			{% if page.author2 %}
+			    &nbsp; | &nbsp;
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<span itemprop="name">
+						<a href="https://www.linkedin.com/in/{{ page.linkedin2 }}" target="_blank">{{ page.author2 }}</a>
+					</span>
+				</span> 
+			{% endif %}
 			<br><br>
 			{% include share.html %} 
 			<br><br>

@@ -17,6 +17,11 @@ author:
   name: Riya Malushte
   github_username:  riyamalushte
   linkedin_profile: riyamalushte
+#  email: xyz@gmail.com
+#  twitter_username: xyz
+#  facebook_profile: xyz
+#  youtube_channel: UCkfjsc7I1QVH2ckcURgp3fA
+#  img: /assets/img/xyz.jpg
   
 
 # riyamalushte date format
@@ -26,6 +31,8 @@ riyamalushte:
 
 # Menu items to include in menu navigation
 menuitems:
+  - title: Articles
+    url: /articles
   - title: Testing
     url: /testing
 

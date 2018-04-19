@@ -1,10 +1,26 @@
+{% assign footertitle=true %}
 {% if site.author.github_username %}
-{% include icon-github.html username=site.author.github_username %} &nbsp;|&nbsp;
+{% include icon-github.html username=site.author.github_username %} 
 {% endif %}
-
 {% if site.author.linkedin_profile %}
-{% include icon-linkedin.html username=site.author.linkedin_profile %}&nbsp;|&nbsp;
+&nbsp;|&nbsp; {% include icon-linkedin.html username=site.author.linkedin_profile %}
 {% endif %}
-
-<span>{{ site.title | escape }}</span>
-
+{% if site.author.facebook_profile %}
+&nbsp;|&nbsp; {% include icon-facebook.html username=site.author.facebook_profile %}
+{% assign footertitle=false %}
+{% endif %}
+{% if site.author.twitter_username %}
+&nbsp;|&nbsp; {% include icon-twitter.html username=site.author.twitter_username %}
+{% assign footertitle=false %}
+{% endif %}
+{% if site.author.youtube_channel %}
+&nbsp;|&nbsp; {% include icon-youtube.html channel=site.author.youtube_channel username=site.author.github_username %}
+{% assign footertitle=false %}
+{% endif %}
+{% if site.author.email %}
+&nbsp;|&nbsp; {% include icon-email.html username=site.author.email %}
+{% assign footertitle=false %}
+{% endif %}
+{% if footertitle==true %}
+&nbsp;|&nbsp;<span>{{ site.title | escape }}</span>
+{% endif %}

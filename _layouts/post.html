@@ -11,12 +11,17 @@ layout: postwrapper
 			</time>
 			&nbsp; | &nbsp;<span class="eta"></span> (<span class="words"></span> words)&nbsp; | &nbsp;
 			{% if page.author %}
-				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-					<span itemprop="name">
-						<a href="/author/">{{ page.author }}</a>
-					</span>
-				</span> 
+				{% assign postauthor=page.author %}
+				{% assign linkedin_profile=page.linkedin_profile %}
+			{% else %}
+				{% assign postauthor=site.author.name %}
+				{% assign linkedin_profile=site.author.linkedin_profile %}
 			{% endif %}
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<span itemprop="name">
+					<a href="https://www.linkedin.com/in/{{ linkedin_profile }}" target="_blank">{{ postauthor }}</a>
+				</span>
+			</span> 
 			<br><br>
 			{% include share.html %} 
 			<br><br>
