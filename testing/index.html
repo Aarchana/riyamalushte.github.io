@@ -4,11 +4,11 @@ layout: base
 
 <style type="text/css" media="screen">
 p.Title {
-	margin-top: 0cm;
+	margin-top: 5.0pt;
 	margin-right: 0cm;
 	margin-bottom: 0cm;
 	margin-left: 0cm;
-	font-size: 25.0pt;
+	font-size: 16.0pt;
 	font-family: "Verdana", sans-serif;
 	color: #2A2A2A;
 	text-transform: uppercase;
@@ -21,9 +21,21 @@ p.Subtitle {
 	margin-bottom: 5.0pt;
 	margin-left: 0cm;
 	line-height: 130%;
-	font-size: 25.0pt;
+	font-size: 12.0pt;
 	font-family: "Verdana", sans-serif;
 	color: #F75952;
+	font-weight: bold;
+}
+
+p.Read {
+	margin-top: 5.0pt;
+	margin-right: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 0cm;
+	font-size: 24.0pt;
+	font-family: "Verdana", sans-serif;
+	color: #5187f3;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -37,6 +49,18 @@ p.Author {
 	font-weight: bold;
 }
 
+p.Isbn {
+	margin-top: 5.0pt;
+	margin-right: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 0cm;
+	line-height: 130%;
+	font-size: 10.0pt;
+	font-family: "Verdana", sans-serif;
+	color: #2A2A2A;
+	font-weight: normal;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -47,16 +71,23 @@ p.Author {
 
 <div class="container">
 	<p class=Title align=center style='text-align: center'>
-		<span lang=EN-US style='font-size: 36.0pt'>Testing Chatbook</span>
+		<span lang=EN-US>Testing Chatbook</span>
 	</p>
 	<p class=Subtitle align=center style='text-align: center'>
 		<span lang=EN-US>the quintessential basic</span>
 	</p>
-    <img class=center src="testing-chatbook.png" alt="Testing Chatbook" height="288" width="315">
+	<p class=Read align=center style='text-align: center'>
+		<span lang=EN-US>READ ></span>
+	</p>
+    <img class=center src="/assets/img/testing/testing-chatbook.png" alt="Testing Chatbook" height="288" width="315">
+	<br>
 	<p class=Author align=center style='text-align: center'>
 		<span lang=EN-US>Riya Malushte</span>
 	</p>
 	<p class=Author align=center style='text-align: center'>
 		<span lang=EN-US>Pradyumna Roy</span>
+	</p>
+	<p class=Isbn align=center style='text-align: center'>
+		<span lang=EN-US>E-ISBN  978-93-5300-857-4</span>
 	</p>
 </div>
