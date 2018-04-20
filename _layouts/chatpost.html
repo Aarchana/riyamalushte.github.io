@@ -9,7 +9,7 @@ layout: chatpostwrapper
 			{% if page.author1 %}
 				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 					<span itemprop="name">
-						<a href="https://www.linkedin.com/in/{{ page.linkedin1 }}" target="_blank">{{ page.author1 }}</a>
+						<a href="https://www.linkedin.com/in/{{ page.linkedin_profile1 }}" target="_blank">{{ page.author1 }}</a>
 					</span>
 				</span> 
 			{% endif %}
@@ -17,7 +17,7 @@ layout: chatpostwrapper
 			    &nbsp; | &nbsp;
 				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 					<span itemprop="name">
-						<a href="https://www.linkedin.com/in/{{ page.linkedin2 }}" target="_blank">{{ page.author2 }}</a>
+						<a href="https://www.linkedin.com/in/{{ page.linkedin_profile2 }}" target="_blank">{{ page.author2 }}</a>
 					</span>
 				</span> 
 			{% endif %}
@@ -35,9 +35,9 @@ layout: chatpostwrapper
 
 	<nav class="post-nav">
 	{% if page.next %} 
-		<a class="post-nav-item post-nav-next" href="{{ page.next.url  | relative_url }}">
+		<a class="post-nav-item post-nav-prev" href="{{ page.next.url  | relative_url }}">
 			<section class="post-nav-teaser">
-				<span class="post-nav-icon">&lang;</span> 
+				<span class="post-nav-icon">&rang;</span> 
 				<span class="post-nav-info">
 					<h4 class="post-nav-title">{{ page.next.title }}</h4>
 					<p class="post-nav-excerpt">{{ page.next.excerpt | truncate: 40 }}&hellip;</p>
@@ -46,9 +46,9 @@ layout: chatpostwrapper
 		</a>
 	{% endif %}
 	{% if page.previous %} 
-		<a class="post-nav-item post-nav-prev" href="{{ page.previous.url  | relative_url }}">
+		<a class="post-nav-item post-nav-next" href="{{ page.previous.url  | relative_url }}">
 			<section class="post-nav-teaser">
-				<span class="post-nav-icon">&rang;</span>
+				<span class="post-nav-icon">&lang;</span>
 				<span class="post-nav-info">
 					<h4 class="post-nav-title">{{ page.previous.title }}</h4>
 					<p class="post-nav-excerpt">{{ page.previous.excerpt | truncate: 40 }}&hellip;</p>

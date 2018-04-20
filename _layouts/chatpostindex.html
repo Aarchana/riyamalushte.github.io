@@ -1,0 +1,53 @@
+---
+layout: chatpostwrapper
+---
+
+<div id="postgrid" class="home">
+    {{ content }}
+    <div class="grid">
+		<div class="grid-sizer"></div>
+		{% for item in site.testing %}
+		{% if item.title == "Index" or  item.title == "Chatbook" %}
+		{% else %}
+		<div class="grid-item">	
+		    <a href="{{ item.url | relative_url }}"> 	
+				{% if item.image %} 
+					<img src="{{ item.image | prepend: site.baseurl }}" /> 
+				{% endif %}
+				<h2>{{ item.title | escape }}</h2>
+				{% assign date_format = site.ons.date_format | default: "%-d %b, %Y" %}
+				<p>{{ item.excerpt | truncate: 140 }}</p>
+			</a>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+</div>
+
+{% include footer.html %}
+
+<script type="text/javascript" src="{{ "/assets/js/masonry.pkgd.min.js"  | relative_url }}"></script>
+	<script type="text/javascript" src="{{ "/assets/js/imagesloaded.pkgd.min.js"  | relative_url }}"></script>
+	<script type="text/javascript">
+		function applyMasonryGrid() {
+			// init Masonry
+			var $grid = $('.grid').masonry({
+			  itemSelector: '.grid-item',
+			  columnWidth: '.grid-sizer',
+			  gutter: 10,
+			  fitWidth: true
+			});
+			// layout Masonry after each image loads
+			$grid.imagesLoaded().progress( function() {
+			  $grid.masonry();
+			});  
+		}
+
+		$(function() {
+			applyMasonryGrid();
+		});
+		
+		$(window).resize(function() {
+			applyMasonryGrid();
+		});
+</script>

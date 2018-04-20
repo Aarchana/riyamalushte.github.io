@@ -29,6 +29,11 @@ author:
 riyamalushte:
   date_format: "%-d %b, %Y"
 
+# Collection for Testing Chatbook
+collections:
+  testing:
+    output: true
+
 # Menu items to include in menu navigation
 menuitems:
   - title: Articles
