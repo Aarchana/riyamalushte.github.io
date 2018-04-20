@@ -12,7 +12,7 @@ Leh Ladakh is the Northern most part of India located in Jammu and Kashmir. Its 
 
 1. The highest bridge in the world
 
-2. The rare twin humped camels
+2. Rare twin humped camels are found here
 
 3. The mystical Magnetic Hill which is also known as the “gravity hill” pulls you upwards!
 
@@ -20,13 +20,13 @@ Leh Ladakh is the Northern most part of India located in Jammu and Kashmir. Its 
 
 5. Pangong Tso is the most visited “high grassland lake”
 
-6. An important astronomy center
+6. It's an important astronomy center
 
 7. It is the highest plateau in Kashmir state
 
-8. The land of great monasteries
+8. It's land of great monasteries
 
-9. The Kung-Fu Nuns of Ladakh
+9. Kung-Fu Nuns of Ladakh are famous
 
 10. Ladakh is the highest settlement in India
 
