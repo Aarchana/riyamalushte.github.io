@@ -10,6 +10,7 @@ The cleanest village in India, Mawlynnong Village is also known as God’s Own G
 
 ![image-title-here]({{ "/assets/img/posts/mawlynnong-cleanliness.jpg" | absolute_url }}){:class="img-responsive"}
 
+
 1. Mawlynnong is the cleanest village in Asia.
 
 2. The tribal locals of Mawlynnong are an example to live by.
@@ -17,5 +18,6 @@ The cleanest village in India, Mawlynnong Village is also known as God’s Own G
 3. The cleanest village in Asia is home to the unique living root bridges.
 
 4. Prepared from organic produce, the local dishes of Mawlynnong are lip-smacking.
+
 
 <iframe src="https://www.youtube.com/embed/O0MJa27WgOM?color=white&theme=light"></iframe>

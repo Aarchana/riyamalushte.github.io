@@ -10,11 +10,11 @@ Leh Ladakh is the Northern most part of India located in Jammu and Kashmir. Its 
 
 ![image-title-here]({{ "/assets/img/posts/ladakh.jpeg" | absolute_url }}){:class="img-responsive"}
 
-1. The highest bridge in the world
+1. It has got the highest bridge in the world
 
 2. Rare twin humped camels are found here
 
-3. The mystical Magnetic Hill which is also known as the “gravity hill” pulls you upwards!
+3. The mystical Magnetic Hill which is also known as the “gravity hill” pulls you upwards
 
 4. Dry but still home to large variety of birds
 
