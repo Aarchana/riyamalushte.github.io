@@ -21,6 +21,10 @@
 &nbsp;|&nbsp; {% include icon-email.html username=site.author.email %}
 {% assign footertitle=false %}
 {% endif %}
+{% if page.isbn %}
+&nbsp;|&nbsp;{% include isbn.html isbn=page.isbn %}
+{% assign footertitle=false %}
+{% endif %}
 {% if footertitle==true %}
 &nbsp;|&nbsp;<span>{{ site.title | escape }}</span>
 {% endif %}

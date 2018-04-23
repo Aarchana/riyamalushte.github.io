@@ -1,12 +1,13 @@
 ---
 layout: chatpost
 title: "Test Execution"
-image: "/assets/img/posts/leh.jpg"
+image: "/assets/img/testing/test-execution.png"
 author1: Riya Malushte
 linkedin_profile1: riyamalushte
 author2: Pradyumna Roy
 linkedin_profile2: pradyroy
-excerpt: Every species on this earth have inherent testing capabilities by virtue of different senses imparted to them by mother nature.
+excerpt: Like call logs or call history in a mobile phone, when we execute test cases, we need to maintain a Test Execution Log with results.
+isbn: "978-93-5300-857-4"
 ---
 
 {% include msgaltstart.html %} 

@@ -1,12 +1,13 @@
 ---
 layout: chatpost
 title: "Test Cases"
-image: "/assets/img/posts/leh.jpg"
+image: "/assets/img/testing/testcases.jpg"
 author1: Riya Malushte
 linkedin_profile1: riyamalushte
 author2: Pradyumna Roy
 linkedin_profile2: pradyroy
-excerpt: Every species on this earth have inherent testing capabilities by virtue of different senses imparted to them by mother nature.
+excerpt: A test case is a specification of the inputs, execution conditions, testing procedure to be executed and expected results to be compared.
+isbn: "978-93-5300-857-4"
 ---
 
 {% include msgaltstart.html %} 

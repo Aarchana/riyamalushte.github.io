@@ -1,12 +1,13 @@
 ---
 layout: chatpost
 title: "Product Testing"
-image: "/assets/img/posts/leh.jpg"
+image: "/assets/img/testing/product-testing.png"
 author1: Riya Malushte
 linkedin_profile1: riyamalushte
 author2: Pradyumna Roy
 linkedin_profile2: pradyroy
-excerpt: Every species on this earth have inherent testing capabilities by virtue of different senses imparted to them by mother nature.
+excerpt: Product testing, also called consumer testing or comparative testing, is a process of measuring the properties or performance of products.
+isbn: "978-93-5300-857-4"
 ---
 
 {% include msgaltstart.html %} 
