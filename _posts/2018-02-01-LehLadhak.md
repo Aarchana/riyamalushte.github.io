@@ -8,7 +8,7 @@ linkedin_profile: riyamalushte
 
 Leh Ladakh is the Northern most part of India located in Jammu and Kashmir. Its dramatic mountains and beautiful landscapes makes an unforgettable experience to its travelers. Some interesting facts about Leh Ladakh are listed below.
 
-![image-title-here]({{ "/assets/img/posts/ladakh.jpeg" | absolute_url }}){:class="img-responsive"}
+![Ladakh]({{ "/assets/img/posts/ladakh.jpeg" | absolute_url }}){:class="img-responsive"}
 
 1. It has got the highest bridge in the world
 

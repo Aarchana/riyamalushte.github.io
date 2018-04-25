@@ -17,3 +17,13 @@ Hi, I have joined the software testing team. You have been assigned my mentor. C
 {% include msgstart.html %} 
 Welcome onboard! You don't need any study material to start with.
 {% include msgend.html %} 
+
+
+
+
+
+
+
+
+<br>
+![Test Cases]({{ "/assets/img/testing/the-test-case.jpg" | absolute_url }}){:class="img-responsive"}

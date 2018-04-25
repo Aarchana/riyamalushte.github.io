@@ -78,6 +78,9 @@ Can you imagine anything to test the performance of the phone?
 And your 10th test is what we call Performance Test 😁
 {% include msgend.html %} 
 
+<br>
+![Product Testing]({{ "/assets/img/testing/testing.png" | absolute_url }}){:class="img-responsive"}
+
 
 
 
