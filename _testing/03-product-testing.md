@@ -39,7 +39,7 @@ Please list down a few main features that you would like to test in a new mobile
 {% include msgaltend.html %} 
 
 {% include msgstart.html %} 
-Good, 👍. So, if any of the above features is not working, we will not accept the phone for purchase. That is the bare minimum testing we must do. This set of tests which covers the most important features is called set of Sanity Tests or Smoke Tests.
+Good, 👍. So, if any of the above features is not working, we will not accept the phone for purchase. That is the bare minimum testing we must do. This set of tests which covers the most important features is called set of <b>Sanity Tests</b> or <b>Smoke Tests</b>.
 {% include msgend.html %} 
 
 {% include msgstart.html %} 
@@ -63,7 +63,7 @@ Now list down a few features that are not most important but still helpful in op
 {% include msgaltend.html %} 
 
 {% include msgstart.html %} 
-And there can be many more such things within a phone to test. The point here is, a comprehensive set of tests which includes all the features of a product, like the most important ones, less important ones etc., is called set of Regression Tests.
+And there can be many more such things within a phone to test. The point here is, a comprehensive set of tests which includes all the features of a product, like the most important ones, less important ones etc., is called set of <b>Regression Tests</b>.
 {% include msgend.html %} 
 
 {% include msgstart.html %} 
@@ -75,7 +75,7 @@ Can you imagine anything to test the performance of the phone?
 {% include msgaltend.html %} 
 
 {% include msgstart.html %} 
-And your 10th test is what we call Performance Test 😁
+And your 10th test is what we call <b>Performance Test</b> 😁
 {% include msgend.html %} 
 
 <br>

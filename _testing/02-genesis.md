@@ -111,7 +111,7 @@ Yes, 👍.
 {% include msgend.html %}
 
 {% include msgaltstart.html %} 
-Now, something which has "Test" in it…"Test Drive" of vehicles. Even though we are more or less pre-decided about the brand and model, but we still take a test drive. Needless to say, we end up testing some of the features of the vehicle for sure.
+Now, something which has "Test" in it…<b>"Test Drive"</b> of vehicles. Even though we are more or less pre-decided about the brand and model, but we still take a test drive. Needless to say, we end up testing some of the features of the vehicle for sure.
 {% include msgaltend.html %}
 
 {% include msgstart.html %} 
