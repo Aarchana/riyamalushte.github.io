@@ -14,7 +14,7 @@ isbn: "978-93-5300-857-4"
 
 Copyright © 2018 Pradyumna Roy
 
-[https://riyamalushte.github.io/testing](https://riyamalushte.github.io/testing)
+[https://riyamalushte.github.io/testing/chatbook](https://riyamalushte.github.io/testing/chatbook)
 
 <br>
 First electronically published from Pune, India in 2018 by Pradyumna Roy
