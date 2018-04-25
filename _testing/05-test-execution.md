@@ -34,9 +34,51 @@ Another important aspect of test execution needs to be understood. Have you seen
 Like call logs or call history in a mobile phone 🤔?
 {% include msgaltend.html %} 
 
+{% include msgstart.html %} 
+Yes, pretty much the same 👍. What all information you can retrieve by looking at the call logs?
+{% include msgend.html %} 
 
+{% include msgaltstart.html %} 
+(1.) Caller or Called Party Id or number or contact name
+<br><br>
+(2.) Call Date, Time, duration
+<br><br>
+(3.) Call Status like Received, Missed or Outgoing Successful
+{% include msgaltend.html %}
 
+{% include msgstart.html %} 
+Great 👍. Like call logs or call history, when we execute test cases, we need to maintain a <b>Test Execution Log</b>. 
+{% include msgend.html %} 
 
+{% include msgaltstart.html %} 
+How do we do that 🤔? What kind of tool we need to use to maintain a Test Execution Log?
+{% include msgaltend.html %}
+
+{% include msgstart.html %} 
+In its simplest form an excel sheet with following columns can be used:
+<br>
+<table style="border: 1px solid black; border-collapse: collapse;">
+<tr>
+<td style="border: 1px solid black;"><b>TEST ID</b></td>
+<td style="border: 1px solid black;"><b>DESCRIPTION</b></td>
+<td style="border: 1px solid black;"><b>TEST DATE AND TIME</b></td>
+<td style="border: 1px solid black;"><b>STATUS</b></td>
+<td style="border: 1px solid black;"><b>DEFECT ID (IF ANY)</b></td>
+</tr>
+</table>
+{% include msgend.html %}
+
+{% include msgstart.html %} 
+In professional environments, there are sophisticated software tools to maintain <i><b>Test Execution Logs</b></i> also known as <i><b>Test Cycles</b></i>. Some of the examples of tools used professionally are Test Link, Zephyr, HP Quality Centre, TestRail, TestLog etc.
+{% include msgend.html %}
+
+{% include msgaltstart.html %}
+I heard about them earlier. They are called <b>Test Management Tools</b>.
+{% include msgaltend.html %}
+
+{% include msgstart.html %} 
+👏👏👏, correct.
+{% include msgend.html %}
 
 <br>
 ![Test Execution]({{ "/assets/img/testing/test-execution.png" | absolute_url }}){:class="img-responsive"}
