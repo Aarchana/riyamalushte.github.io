@@ -72,7 +72,43 @@ That’s neat 👍. We call these as <i><b>Test Steps</b></i>. Now, write down t
 👏👏👏 these are called <i><b>Expected Results</b></i>.
 {% include msgend.html %}
 
+{% include msgstart.html %}
+So, the simplest <b>test case</b> should have following structure/format at least (bare minimum): <br><br>
+&nbsp;&nbsp;<i><b>Test case ID:</b></i><br><br>
+&nbsp;&nbsp;<i><b>Test Description:</b></i><br><br>
+&nbsp;&nbsp;<i><b>Pre-Conditions:</b></i><br><br>
+&nbsp;&nbsp;<i><b>Test Steps:</b></i><br><br>
+&nbsp;&nbsp;<i><b>Expected Results:</b></i><br><br>
+{% include msgend.html %}
 
+{% include msgstart.html %}
+How about writing a complete test case in above format for <b>Sending a SMS</b>…😎?
+{% include msgend.html %}
+
+{% include msgaltstart.html %}
+OK, here you go…
+<br>
+<b><i>Test case ID:</i> 0001 </b>
+<br><br>
+<b><i>Test Description:</i></b> Verify the mobile phone can send text messages using Short Messaging Service (SMS) to a remote person
+<br><br>
+<b><i>Pre-Conditions:</i></b> (1.) The mobile phone’s battery should be charged and the phone should be in Switched ON state.
+(2.) The mobile phone should have an activated SIM card and a mobile number of a remote person should be available for sending SMS
+<br><br>
+<b><i>Test Steps:</i></b> (1.) Open the messaging or SMS app in the phone
+<br><br>
+(2.)  Type the remote person’s phone number or mobile number using the numeric dialpad or keypad in the "To" field
+<br><br>
+(3.)  Type a short message in the "Text message" field using the alphanumeric keypad e.g. "Hello Testing sending SMS feature"
+<br><br>
+(4.)  Press or touch press the <i><b>send</b></i> button in the messaging or SMS app
+<br><br>
+(5.)  SMS should be shown as <i><b>Sent</b></i>. Call the remote person and ask if he received the SMS sent.
+<br><br>
+<b><i>Expected Results:</i></b> (1.) The sender’s outbox should show the sent SMS text
+<br><br>
+(2.) The receiver or remote person should get a new SMS in his phones messaging or SMS inbox with the full text sent by the sender as it is.
+{% include msgaltend.html %}
 
 
 
