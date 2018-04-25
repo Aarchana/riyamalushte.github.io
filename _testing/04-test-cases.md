@@ -34,6 +34,43 @@ Wow, that’s 139 characters. You could have twitted it 😁. We call it <b>Test
 Which all things you would like to be already there to conduct the test?
 {% include msgend.html %}
 
+{% include msgaltstart.html %} 
+(1.) The mobile phone’s battery should be charged and the phone should be in Switched ON state.
+<br><br>
+(2.) The mobile phone should have an activated SIM card and a mobile number of a remote person should be available for dialing.
+{% include msgaltend.html %} 
+
+{% include msgstart.html %}
+Great, above list of items are called <i><b>Pre-Requisites</b></i> or <i><b>Pre-Conditions</b></i>. Without these things, we cannot start our test or we will not be able to carry out some of the actions required to do the test.
+{% include msgend.html %}
+
+{% include msgstart.html %}
+Now, let’s jot down the list of actions we will perform to do the mentioned test. 
+{% include msgend.html %}
+
+{% include msgaltstart.html %} 
+(1.) Open the phone app or dialer app or dial pad in the phone
+<br><br>
+(2.)  Type the desired phone number or mobile number using the numeric dial pad or keypad
+<br><br>
+(3.)  Press or touch press the dial button in your phone app or dialer app or dial pad
+<br><br>
+(4.)  Place the earpiece/speaker of the mobile phone near your ears with the mouthpiece or mic towards your mouth
+{% include msgaltend.html %}
+
+{% include msgstart.html %}
+That’s neat 👍. We call these as <i><b>Test Steps</b></i>. Now, write down the results you are expecting after you have performed all the 4 steps listed above. 
+{% include msgend.html %}
+
+{% include msgaltstart.html %}
+(1.) Should be able to hear audible ringing or ringback/ringing tone.
+<br><br>
+(2.) Once the remote person accepts the call, each other’s voice should be clearly audible to both calling and called parties
+{% include msgaltend.html %}
+
+{% include msgstart.html %}
+👏👏👏 these are called <i><b>Expected Results</b></i>.
+{% include msgend.html %}
 
 
 
