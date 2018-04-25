@@ -63,14 +63,18 @@ Build Number: NPNS25. 137-92-4
 <br><br>
 <b>Evidence:</b> See below screenshot
 {% include msgend.html %} 
-<b>
 ![Call Log Defect]({{ "/assets/img/testing/call-log-defect.png" | absolute_url }}){:class="img-responsive"}
 
+{% include msgaltstart.html %}
+And where do we write a defect? Is there any tool or software where we write or submit a defect report?
+{% include msgaltend.html %} 
 
+{% include msgstart.html %} 
+Yes, we write it and submit in tools like Bugzilla, Jira, HP Quality Centre, Rally, Trac etc. These are called <b>Defect Management Tools</b> or <b>Issue Tracking Tools</b>. All these tools support some stages/phases of Defect like <b><i>New, Assigned, In Progress, Fixed, Verified, Closed</i></b>. These phases or stages are also called <b><i>Defect Life Cycle</i></b>. Google can give plenty of tutorials or notes on the topic.
+{% include msgend.html %} 
 
+{% include msgstart.html %} 
+This process is more famously known as <b><i>raising a defect</i></b>. See the pictorial illustration below 😁.
+{% include msgend.html %} 
 
-
-
-
-<br>
 ![Defect]({{ "/assets/img/testing/raise-bugs.png" | absolute_url }}){:class="img-responsive"}
