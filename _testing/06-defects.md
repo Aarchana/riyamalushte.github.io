@@ -10,12 +10,22 @@ excerpt: A failed test case in most of the cases will result in a failure report
 isbn: "978-93-5300-857-4"
 ---
 
+{% include msgstart.html %} 
+In this last session, we will discuss about DEFECTS, the most dreaded thing 👹😈☠.
+{% include msgend.html %} 
+
 {% include msgaltstart.html %} 
-Hi, I have joined the software testing team. You have been assigned my mentor. Can you please share some study material to start with?
+I have heard, DEFECTS are bread and butter of a tester 😁.
 {% include msgaltend.html %} 
 
 {% include msgstart.html %} 
-Welcome onboard! You don't need any study material to start with.
+Very true, 😁. We already learned that a failed test case in most of the cases will result in a <b>failure report</b> or <b><i>DEFECT</i></b>. 
+<br><br>
+<b>if</b> [ <b>actual results</b> not equals <b>expected results</b> ]  then
+<br>
+&nbsp;&nbsp;report <b>failure</b> or <b>DEFECT</b>;
+<br>
+<b>end if</b>
 {% include msgend.html %} 
 
 
