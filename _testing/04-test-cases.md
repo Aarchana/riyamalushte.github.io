@@ -90,9 +90,10 @@ OK, here you go…
 <br>
 <b><i>Test case ID:</i> 0001 </b>
 <br><br>
-<b><i>Test Description:</i></b> Verify the mobile phone can send text messages using Short Messaging Service (SMS) to a remote person
+<b><i>Test Description:</i></b> <i>Verify the mobile phone can send text messages using Short Messaging Service (SMS) to a remote person</i>
 <br><br>
 <b><i>Pre-Conditions:</i></b> (1.) The mobile phone’s battery should be charged and the phone should be in Switched ON state.
+<br><br>
 (2.) The mobile phone should have an activated SIM card and a mobile number of a remote person should be available for sending SMS
 <br><br>
 <b><i>Test Steps:</i></b> (1.) Open the messaging or SMS app in the phone
@@ -110,7 +111,48 @@ OK, here you go…
 (2.) The receiver or remote person should get a new SMS in his phones messaging or SMS inbox with the full text sent by the sender as it is.
 {% include msgaltend.html %}
 
+{% include msgstart.html %}
+Great 👍. Above is a valid example of a <b>test case</b>. At times, people call them <b><i>manual test script</i></b> also. However, we should stick to the term <b>test case</b>.
+{% include msgend.html %}
 
+{% include msgaltstart.html %}
+Here’s another one…
+<br>
+<b><i>Test case ID:</i> 0002 </b>
+<br><br>
+<b><i>Test Description:</i></b> <i>Verify that the mobile phone has working feature for adding new Contacts</i>
+<br><br>
+<b><i>Pre-Conditions:</i></b> The mobile phone’s battery should be charged and the phone should be in switched on state
+<br><br>
+<b><i>Test Steps:</i></b> (1.) Open the Contacts app and click/touch press on Add New Contact icon or button
+<br><br>
+(2.) Click or touch press in the Name field and type the name of the person using alpha numeric keypad
+<br><br>
+(3.) Click or touch press in the Phone Number field and type the phone number of the person using numeric keypad
+<br><br>
+(4.) Click or touch press the save contact icon or button
+<br><br>
+<b><i>Expected Results:</i></b> The screen should show a confirmation message like "Contact Saved"
+{% include msgaltend.html %}
+
+
+{% include msgaltstart.html %}
+Here’s another one…
+<br>
+<b><i>Test case ID:</i> 0003 </b>
+<br><br>
+<b><i>Test Description:</i></b> <i>Verify that the mobile phone keeps a log of all incoming and outgoing calls and can be viewed on demand</i>
+<br><br>
+<b><i>Pre-Conditions:</i></b> The mobile phone’s battery should be charged and the phone should be in switched on state
+<br><br>
+<b><i>Test Steps:</i></b> (1.) Open the Phone/Dialer app and click/touch press on Call Logs or Call History icon or button
+<br><br>
+<b><i>Expected Results:</i></b> The screen should show a list of all calls both incoming (attended/missed) and outgoing in reverse chronological order based on time of call.
+{% include msgaltend.html %}
+
+{% include msgstart.html %}
+👏👏👏, great show. So, the definition as worked out above is: A <b>test case</b> is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular testing objective
+{% include msgend.html %}
 
 <br>
 ![Test Cases]({{ "/assets/img/testing/the-test-case.jpg" | absolute_url }}){:class="img-responsive"}
