@@ -8,6 +8,8 @@ author2: Pradyumna Roy
 linkedin_profile2: pradyroy
 excerpt: Pradyumna Roy along with Riya Malushte asserts the moral right to be identified as the original authors of this work.
 isbn: "978-93-5300-857-4"
+keywords: ISBN 978-93-5300-857-4, ISBN 9789353008574, Riya Malushte, Pradyumna Roy, Prady Roy, Software Testing ebook, Software Testing Tutorial, Testing Chatbook, Software Testing Article, Basics of Software Testing, Software Testing Engineer in Pune, API Tester in Pune, Software Testing expert in Pune
+ebook: "/assets/pdf/testing-chatbook.pdf"
 ---
 
 ### <b>Testing Chatbook</b>

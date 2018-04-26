@@ -21,6 +21,12 @@ layout: chatpostwrapper
 					</span>
 				</span> 
 			{% endif %}
+			{% if page.ebook %}
+			    <br>
+				<span itemprop="book">
+					<a href="{{ page.ebook }}" target="_blank">Download Free Ebook &#x2193;</a>
+				</span>
+			{% endif %}
 			<br><br>
 			{% include share.html %} 
 			<br><br>

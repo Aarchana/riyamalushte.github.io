@@ -4,6 +4,8 @@
   {% if page.title %}{% assign page_title = page.title | escape %}{% else %}{% assign page_title = site.title | escape %}{% endif %}{% assign page_description = page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape %}
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ page_description }}">
+   {% if page.keywords %}{% assign page_keywords = page.keywords | escape %}{% else %}{% assign page_keywords = site.author.name | escape %}{% endif %}
+  <meta name="keywords" content="{{ page_keywords }}">
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
