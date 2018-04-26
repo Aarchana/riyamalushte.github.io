@@ -1,6 +1,6 @@
 ---
 layout: chatpost
-title: "About The Authors"
+title: "Meet The Authors"
 image: "/assets/img/testing/meet-the-authors.png"
 author1: Riya Malushte
 linkedin_profile1: riyamalushte
