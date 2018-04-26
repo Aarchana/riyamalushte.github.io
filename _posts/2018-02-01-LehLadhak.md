@@ -4,6 +4,7 @@ title: "Leh Ladhak"
 image: "/assets/img/posts/leh.jpg"
 author: Riya Malushte
 linkedin_profile: riyamalushte
+keywords: Riya Malushte, Zin Riya Malushte, Female Zumba Expert in Hadapsar Pune, Software Testing Engineer, International Traveler near Hadapsar Pune, Yoga Expert near Hadapsar Pune, Zumba Trainer near Hadapsar Pune, Yoga Classes Near Hadapsar Pune, Zumba Classes near Hadapsar Pune, Dance Classes near Hadapsar Pune
 ---
 
 Leh Ladakh is the Northern most part of India located in Jammu and Kashmir. Its dramatic mountains and beautiful landscapes makes an unforgettable experience to its travelers. Some interesting facts about Leh Ladakh are listed below.
