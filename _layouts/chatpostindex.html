@@ -16,7 +16,7 @@ layout: chatpostwrapper
 				{% endif %}
 				<h2>{{ item.title | escape }}</h2>
 				{% assign date_format = site.ons.date_format | default: "%-d %b, %Y" %}
-				<p>{{ item.excerpt | truncate: 140 }}</p>
+				<p>{{ item.excerpt | truncate: 140, "" }}<b>...click to read more</b></p>
 			</a>
 		</div>
 		{% endif %}

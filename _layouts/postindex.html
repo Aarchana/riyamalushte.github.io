@@ -15,7 +15,7 @@ layout: postwrapper
 				<h2>{{ post.title | escape }}</h2>
 				{% assign date_format = site.ons.date_format | default: "%-d %b, %Y" %}
 				<p>{{ post.date | date:date_format }}</p>
-				<p>{{ post.excerpt | truncate: 140 }}</p>
+				<p>{{ post.excerpt | truncate: 140, "" }}<b>...click to read more</b></p>
 			</a>
 		</div>
 		{% endfor %}
