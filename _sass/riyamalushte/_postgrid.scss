@@ -19,9 +19,10 @@
 .grid-item {
 	float: left;
 	margin-bottom: 10px;
-    background: transparent;
-    border: 1px solid black;
+    background: #FFFFFF;
+    /*border: 1px solid black;*/
     border-radius: 3px;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .grid-item img {
