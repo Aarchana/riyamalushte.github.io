@@ -23,3 +23,7 @@ ebook: "/assets/pdf/testing-chatbook.pdf"
 <br><br>
 <a href="https://www.linkedin.com/in/pradyroy" target="_blank">https://www.linkedin.com/in/pradyroy</a>
 {% include msgend.html %} 
+
+{% include msgaltstart.html %} 
+<i>Useful TIPs in the next page…</i>
+{% include msgaltend.html %} 
